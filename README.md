@@ -1,9 +1,16 @@
-## HyperSplit using TypeScript
+## HyperSplit using nodejs with TypeScript
 
 ## Introduction
-    HyperSplit in node js. HyperSplit using TypeScript. We have provide hyperSplit payout api like- Payout in bank api.
+    HyperSplit using nodejs with TypeScript. we are providing demo apis for payout.
+    HyperSplit provide method for payout like - payout to bank
+
+    1. Payout method -:
+        For payout we need to provide config Id(provided by hypersplit team),merchantTransactionId(Unique for every payout),bank account number,account holder name,payout amount,debit currency, transfer currency,
+        bank iban number,payout Beneficiary Address(optional).
+
 
 ## Setup Steps:
+### Install project dependency
 `npm install`
 ### local server
 `npm run start:dev`
@@ -12,6 +19,6 @@
 ### prod build run
 `node dist/index.js`
 
-## Hyperpay payment apis - 
-  #### HyperSplit payout api for payout in bank
+## HyperSplit payout demo apis - 
+  #### HyperSplit payout demo api for payout in bank
   `{{Your Ip}}/api/v1/hyperSplit/PayOut`
