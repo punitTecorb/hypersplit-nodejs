@@ -4,7 +4,7 @@
     HyperSplit using nodejs with TypeScript. we are providing demo apis for payout.
     HyperSplit provide method for payout like - payout to bank
 
-    1. Payout method -:
+    1. Payout method :-
         For payout we need to provide config Id(provided by hypersplit team),merchantTransactionId(Unique for every payout),bank account number,account holder name,payout amount,debit currency, transfer currency,
         bank iban number,payout Beneficiary Address(optional).
 
